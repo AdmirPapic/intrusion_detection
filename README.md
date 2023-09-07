@@ -15,8 +15,8 @@
 
 **Feature Selection:** https://towardsdatascience.com/understanding-feature-importance-and-how-to-implement-it-in-python-ff0287b20285 
 
-**Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2, 
-https://www.youtube.com/watch?v=nUOh_lDMHOU&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t&index=6&pp=iAQB
+**Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2,
+(Youtube tutorial for Flask Productionization) https://www.youtube.com/watch?v=nUOh_lDMHOU&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t&index=6&pp=iAQB
 
 
 ## Dataset
