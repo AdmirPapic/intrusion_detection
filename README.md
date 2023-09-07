@@ -41,7 +41,7 @@ The types of all features were either integers or floats. Their mean, minimum, 2
 After splitting the data in a train and test set, it was fitted on a Random Forest Classifier model with 150 estimators (decision trees). Because of the excellent performance of the model, impurity-based feature importances were computed from that same model. 
 The following bar graph displays the relative importance of each feature in the dataset.
 
-![alt text](https://github.com/AdmirPapic/intrusion_detection/tree/master/images/feature_importances.PNG "Feature Importances")
+![alt text](https://github.com/AdmirPapic/intrusion_detection/blob/master/images/feature_importances.png "Feature Importances")
 
 The 38 least important features were dropped in order to improve future runtimes (40 features were kept). The model was fitted again on the remaining data and metrics show a negligible difference between them.
 
@@ -51,16 +51,16 @@ They were evaluated using their accuracy score. A binary confusion matrix was pl
 
 *	**K Nearest Neighbors** – The number of nearest neighbors was tuned using GridSearchCV. Optimal results were obtained for K = 3.
 
-![alt text](https://github.com/AdmirPapic/intrusion_detection/tree/master/images/k_nearest_neighbors.PNG "K Nearest Neighbors")
+![alt text](https://github.com/AdmirPapic/intrusion_detection/blob/master/images/k_nearest_neighbors.png "K Nearest Neighbors")
   
 *	**Logistic Regression** – From the start, this model had poor performance and a very large train set error which suggests the need for adding polynomial features. However, the number of features is already quite large and therefore it was not further considered.
 *	**Support Vector Classifier** – Both Linear and Gaussian Support Vector Classifiers were fitted and yielded poor results.
 
-![alt text](https://github.com/AdmirPapic/intrusion_detection/tree/master/images/linear_svc.PNG "Support Vector Classifier")
+![alt text](https://github.com/AdmirPapic/intrusion_detection/blob/master/images/linear_svc.png "Support Vector Classifier")
 
 *	**Random Forest Classifier** – A random forest classifier with near perfect accuracy was fitted, consisting of 150 decision trees.
 
-![alt text](https://github.com/AdmirPapic/intrusion_detection/tree/master/images/rf_classifier.PNG "Random Forest Classifier")
+![alt text](https://github.com/AdmirPapic/intrusion_detection/blob/master/images/rf_classifier.png "Random Forest Classifier")
 
 ## Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets. 
